@@ -1,3 +1,3 @@
-FROM node:16-alpine
+FROM node:12
 
 RUN npm install -g 8base-cli
