@@ -1,3 +1,3 @@
-FROM node:16.3.0-alpine3.11
+FROM node:16-alpine
 
-RUN npm install -g 8base-cli --unsafe-perm=true --allow-root
+RUN npm install -g 8base-cli
